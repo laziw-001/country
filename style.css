@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	padding: 0 100px;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2B3844;
+	padding: 20px 100px;
+}
+body {
+	background-color: #202C36; /* To‘q kulrang fon */
+	color: white;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.dark {
+	background-color: rgb(202, 202, 202);
+}
+button {
+	font-size: 18px;background-color: transparent;
+	border: none;
+	color: white;
+}
+.search-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0;
+}
+input {
+	width: 300px;
+	padding: 10px;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+.card-parent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 50px;
+	padding: 20px;
+}
+.card {
+	width: 250px; /* O‘lchamni aniq berish */
+	background-color: #2B3844;
+	text-align: center;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease-in-out;
+}
+.card h2 {
+	margin: 20px 0;
+}
+.card:hover {
+	transform: scale(1.05);
+}
+
+.card img {
+	width: 100%;
+	height: 150px; /* Barcha kartochkalar uchun bir xil o‘lcham */
+	object-fit: cover;
+}
